@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import { FaArrowUpLong } from 'react-icons/fa6'
 import { motion } from 'framer-motion'
 
@@ -20,7 +20,7 @@ const LandingPage = () => {
         })}
       </div>
       <div className='border-t-[1px] border-zinc-400 mt-[6vw] flex justify-between items-center py-5 px-20'>
-        {["For public and private companies", "From the first pitch to IPO"].map((item, index) => <p className='text-md font-dark tracking-tight leading-none'>{item}</p>)}
+        {["For public and private companies", "From the first pitch to IPO"].map((item) => <p className='text-md font-dark tracking-tight leading-none'>{item}</p>)}
         <div className='start flex items-center gap-2'>
           <div className='px-5 py-2 border-[1.5px] hover:bg-black hover:text-white uppercase font-dark text-md border-zinc-500 rounded-full'>start the project</div>
           <div className='hover:bg-black hover:text-white w-9 h-9 flex items-center justify-center rounded-full border-[1.5px] border-zinc-500'>

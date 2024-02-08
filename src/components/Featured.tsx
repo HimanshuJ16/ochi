@@ -1,5 +1,5 @@
-import { motion, useAnimate, useAnimation } from 'framer-motion'
-import React, { useState } from 'react'
+import { motion, useAnimation } from 'framer-motion'
+// import React, { useState } from 'react'
 
 const Featured = () => {
   const cards = [useAnimation(), useAnimation(), useAnimation(), useAnimation()];
